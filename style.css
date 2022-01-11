@@ -1,0 +1,97 @@
+.weight-tile{
+  font-size: 10px;
+}
+
+.new-class-tile{
+  margin: 5px;
+  padding: 15px;
+  background-color: rgb(247, 251, 255);
+  border: solid darkgray 3px;
+  box-shadow: 10px 10px 5px rgb(72, 147, 182);
+  border-radius: 5px;
+  text-align: center;
+  font-style: oblique;
+}
+
+.old-class-tile{
+  margin: 5px;
+  padding: 15px;
+  background-color: rgb(247, 251, 255);
+  border: solid darkgray 3px;
+  box-shadow: 10px 10px 5px rgb(72, 147, 182);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.sub-header {
+  font-size: 30px;
+}
+
+input[type=number] {
+  width: 45px;
+  height: 15px;
+}
+
+input {
+  border-radius: 5px;
+  color: black;
+}
+
+.small-button{
+  padding: 9px;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+.small-button:hover {
+  transition-duration: .5s;
+  background-color: rgb(112, 173, 226);
+  color: white;
+}
+
+.button{
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.button:hover{
+  transition-duration: .5s;
+  background-color: rgb(112, 173, 226);
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.announce {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.buff{
+  font-size: 30px;
+  font-weight: 900;
+}
+
+#green{
+  color: greenyellow;
+}
+
+#blue{
+  color: blue;
+}
+
+#yellow{
+  color: rgb(228, 228, 49);
+}
+
+#orange {
+  color: orange;
+}
+
+#red{
+  color: red;
+}

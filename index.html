@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="center">
+        <h1 id="title">GPA Calculator</h1>
+        <div id="instructions">Enter grade for each class, click below to change grade weights</div>
+      <div>
+        <button class="button" id="weights" onclick="weights()">Grade Weights</button>
+        <button class="button" id="newClassButton" onclick="newClass()">Create New Class</button>
+      </div>
+    </div>
+
+    <div id="gpa"></div>
+
+    <div id="prompt-tile"></div>
+    <div id="weight-prompt"></div>
+    <div id="class-tile"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
